@@ -1,22 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+// a lot of Css can be split into separate css files and imported
 
+// functional components hooks
+
+import Matthew from "./matthew";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Matthew/>
       </header>
     </div>
   );
